@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height:200px;
+     width: 100%;
+    background-color: aquamarine;
+    
+}
+
+/* .container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 200;
+gap: 30px;
+}
+
+
+
+900 */
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    
+}
+.img1{
+    background-color: aqua;
+   width: 200px;
+   height: 200px;
+}
+.img2{
+
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    
+}
